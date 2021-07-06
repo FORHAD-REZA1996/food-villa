@@ -1,0 +1,255 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  text-decoration: none;
+}
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+p {
+  color: dimgray;
+}
+
+h1 span {
+  color: orange;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  .navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgba(44, 1, 1, 0.801);
+  }
+  .listnav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.952);
+    border-radius: 5px;
+  }
+  .listnav ul li:hover {
+    background-color: antiquewhite;
+  }
+  .search-bar {
+    padding: 20px;
+  }
+  .search-bar input {
+    padding: 10px;
+    width: 400px;
+    border: 7px;
+    border-radius: 5px;
+  }
+  .search-bar button {
+    padding: 10px;
+    width: 100px;
+    border: 7px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .search-bar button:hover {
+    background-color: antiquewhite;
+    color: rgb(3, 3, 3);
+  }  
+
+  
+.fast-header {
+    display: flex;
+  }
+  
+  .fast-header-title {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 100px;
+  }
+  .fast-header-title h1 {
+    font-weight: 900;
+    font-size: 70px;
+    text-transform: capitalize;
+  }
+  .fast-header-title p {
+    padding-bottom: 50px;
+    font-size: 25px;
+  }
+  .fast-header-image {
+    width: 50%;
+  }
+  .fast-header-image img {
+    width: 100%;
+  }
+  
+  .link-button {
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 20px 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px lightsalmon;
+  }
+  /* about us */
+
+.about {
+    display: flex;
+    background-image: url(../images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 634px;
+  }
+  .about-us h2 {
+    text-transform: capitalize;
+    color: #726e6e;
+  }
+  .about-image {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .about-image img {
+    width: 80%;
+  }
+  
+  .about-us {
+    width: 50%;
+    padding: 80px;
+    margin-top: 30px;
+    line-height: 30px;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+
+  /* our-recipes */
+
+.our-recipes-about {
+    text-align: center;
+    padding: 25px 350px;
+  }
+  .our-recipes-about h2 {
+    text-transform: capitalize;
+    color: #726e6e;
+  }
+  .our-recipes-about p {
+    font-size: 21px;
+  }
+  .recipes-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+  }
+  
+  .card1 {
+    width: 35%;
+    margin: 0 3%;
+    border: 25px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #cecbcb;
+  }
+  
+  .card2 {
+    width: 35%;
+    border: 25px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #cecbcb;
+  }
+  
+  .card3 {
+    width: 35%;
+    margin: 0 3%;
+    border: 25px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #cecbcb;
+  }
+  .recipes-card-img {
+    width: 100%;
+  }
+  /*social*/
+  .features-item-social{
+    display: flex;
+    margin: 100px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 40px gray;
+}
+.features-social-padding{
+    padding-left: 220px;
+    /*padding-right: 190px;*/
+    padding-bottom: 50px;
+}
+.features-social-padding h1{
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.features-social-padding p{
+    font-size: 10px;
+    font-weight: 100;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-style: initial;
+}
+/*reviews*/
+.review-container{
+    display: flex;
+    padding-bottom: 120px;
+}
+.review-section{
+    margin: 35px;
+    padding-top: 120px;
+    text-align: center;
+}
+.review{
+    width: 80%;
+    margin: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px gray;
+}
+.review p{
+    text-align: justify;
+    font-style: initial;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: gray;
+}
+.review h1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*footer*/
+footer{
+    background-color: black;
+}
+.footer-center{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+#footer-color-first{
+    color: #ec2fb2;   
+}
+#footer-color-second{
+    color: gray;
+}
+#padding-bottom{
+    padding-bottom: 120px;
+}
