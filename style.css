@@ -24,7 +24,7 @@ p {
 }
 
 h1 span {
-  color: orange;
+  color: rgba(44, 1, 1, 0.801);
 }
 
 body {
@@ -242,7 +242,7 @@ footer{
     text-align: center;
     color: white;
     padding-top: 20px;
-    padding-bottom: 120px;
+    padding-bottom: 20px;
 }
 #footer-color-first{
     color: #ec2fb2;   
